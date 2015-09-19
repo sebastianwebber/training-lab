@@ -7,10 +7,63 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
     <!-- Site Properities -->
     <title>Training Lab</title>
-    <link rel="stylesheet" type="text/css" href="bower_components/semantic/dist/semantic.min.css">
+    <link rel="stylesheet" type="text/css" href="bower_components/semantic/dist/semantic.min.css" />
+    <link rel="stylesheet" type="text/css" href="media/css/main.css" />
   </head>
   <body>
-    <script src="bower_components/jquery/dist/jquery.min.js"></script>
-    <script src="bower_components/semantic/dist/semantic.min.js"></script>
-  </body>
+    <div class="ui top fixed menu">
+      <div class="item">
+        <h4>Training LAB</h4>
+      </div>
+      <div class="item">
+        <p>Class Name</p>
+      </div>
+    </div>
+    <div class="ui padded equal height grid" style="margin-top: 10px;">
+      <div class="four wide column">
+        <h3>Ativities</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit in voluptate velit esse
+          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <h4>TO DO</h4>
+        <div class="ui checkbox">
+          <input type="checkbox" name="example">
+          <label>Lorem ipsum dolor sit amet 1</label>
+        </div>
+        <div class="ui checkbox">
+          <input type="checkbox" name="example">
+          <label>Lorem ipsum dolor sit amet 2</label>
+        </div>
+        <div class="ui checkbox">
+          <input type="checkbox" name="example">
+          <label>Lorem ipsum dolor sit amet 3</label>
+        </div>
+        <div class="ui checkbox">
+          <input type="checkbox" name="example">
+          <label>Lorem ipsum dolor sit amet 4</label>
+        </div>
+      </div>
+      <div class="twelve wide stretched column">
+        <div class="column">
+          <div class="ui top attached pointing menu"><a class="active item" data-tab="first">First</a>
+          <a class="item" data-tab="second">Second</a>
+          <a class="item" data-tab="third">Third</a>
+        </div>
+        <div class="ui bottom attached active tab segment default-panel" data-tab="first">
+          First
+        </div>
+        <div class="ui bottom attached tab segment default-panel" data-tab="second">
+          Second
+        </div>
+        <div class="ui bottom attached tab segment default-panel" data-tab="third">
+          Third
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="bower_components/jquery/dist/jquery.min.js"></script>
+  <script src="bower_components/semantic/dist/semantic.min.js"></script>
+  <script src="media/js/app.js"></script>
+</body>
 </html>

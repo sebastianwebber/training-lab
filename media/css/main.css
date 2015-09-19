@@ -1,0 +1,12 @@
+html, body {
+    height: 100%;
+}
+
+.ui.grid {
+    height: 100%;    
+}
+
+.default-panel {
+	height: 500px;
+	min-height: 400px;
+}
