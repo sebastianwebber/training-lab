@@ -16,4 +16,4 @@ Run the simple http server:
 python -m SimpleHTTPServer 8000
 ```
 
-Connect to [http://127.0.0.1:8000](http://127.0.0.1:8000) and be happy.
+Open [http://127.0.0.1:8000](http://127.0.0.1:8000) and be happy.
