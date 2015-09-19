@@ -1,0 +1,21 @@
+{
+  "name": "training-lab",
+  "version": "0.1",
+  "homepage": "https://github.com/sebastianwebber/training-lab",
+  "authors": [
+    "Sebastian Webber <sebastian@swebber.me>"
+  ],
+  "description": "Training lab project",
+  "main": "index.html",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "semantic": "semantic-ui#~2.1.4"
+  }
+}
